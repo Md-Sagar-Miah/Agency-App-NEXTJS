@@ -12,7 +12,7 @@ const Footer = async () => {
     const data = await getData();
     return (
         <section className=" bg-black text-white py-6">
-            <div className="flex flex-col md:flex-row flex-wrap md:flex-nowrap container mx-auto max-w-6xl py-14 md:space-x-20">
+            <div className="flex flex-col md:flex-row flex-wrap md:flex-nowrap container mx-8 xl:mx-auto max-w-6xl py-14 md:space-x-20">
                 <div className=" w-full md:w-1/3 flex flex-col items-center  md:items-start">
                     <h1 className=" font-bold text-4xl px-4 pb-8">
                         WEB LOGO
@@ -50,7 +50,7 @@ const Footer = async () => {
                 </div>
 
             </div>
-            <div className="container mx-auto max-w-6xl">
+            <div className="container mx-8 xl:mx-auto max-w-6xl">
                 <span className=" text-lg mx-2">Copyright Design Agency 2022</span>
             </div>
         </section>

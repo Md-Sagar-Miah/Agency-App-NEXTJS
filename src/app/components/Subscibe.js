@@ -13,7 +13,7 @@ const Subscibe = () => {
     }
     return (
         <div>
-            <div className="container mx-auto max-w-6xl py-20 flex justify-center ">
+            <div className="container mx-8 xl:mx-auto max-w-6xl py-20 flex justify-center ">
                 <div className=" grid justify-items-center">
                     <h3 className="font-medium text-xl text-green-600 pb-6">
                         SUBSCRIBE

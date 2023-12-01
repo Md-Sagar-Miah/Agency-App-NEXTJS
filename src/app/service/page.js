@@ -9,7 +9,7 @@ const page = () => {
         <section>
             <div className=' bg-gray-100'>
                 <Navbar />
-                <div className='container mx-auto max-w-6xl pt-20 pb-16'>
+                <div className='container mx-8 xl:mx-auto max-w-6xl pt-20 pb-16'>
                     <h1 className=' font-semibold text-4xl pb-5'>Our Services</h1>
                     <h6 className=' font-semibold pb-3'>Home  <span className=' font-medium text-xl pty-4 px-2'>&gt;</span>  <span className=' text-green-600'>Our Services</span></h6>
                 </div>

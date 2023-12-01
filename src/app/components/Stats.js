@@ -11,7 +11,7 @@ const Stats = async () => {
     const data = await getData();
     return (
         <section className="pt-20 pb-8">
-            <div className="container mx-auto max-w-6xl">
+            <div className="container mx-8 xl:mx-auto max-w-6xl">
                 <div className="flex flex-nowrap space-x-7">
                     <div className="mb-8 px-8 py-12 rounded-2xl w-full md:w-1/2 lg:w-1/4 text-center shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
                         <span className="mb-6 inline-block p-6 rounded-lg bg-green-100">

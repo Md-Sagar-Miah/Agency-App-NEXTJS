@@ -12,7 +12,7 @@ const Team = async () => {
     const data = await getData()
     return (
         <section>
-            <div className="container mx-auto max-w-6xl py-16">
+            <div className="container mx-8 xl:mx-auto max-w-6xl py-16">
                 <h3 className=" font-medium text-xl text-green-600 pb-6">
                     OUR TEAM MEMBER
                 </h3>
