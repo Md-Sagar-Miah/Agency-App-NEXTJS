@@ -12,7 +12,7 @@ const AllProject = async () => {
 
     return (
         <section>
-            <div className="container mx-auto py-16">
+            <div className="container mx-auto max-w-6xl py-16">
                 <div className="">
                     <h3 className=" font-medium text-xl text-green-600 pb-6">
                         ALL PROJECT

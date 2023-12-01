@@ -15,7 +15,7 @@ const Hero = async () => {
 
         <section className=' bg-green-100 pb-2'>
             <Navbar />
-            <div className='container mx-auto flex flex-col lg:flex-row justify-between items-center'>
+            <div className='container mx-auto max-w-6xl flex flex-col lg:flex-row justify-between items-center'>
                 <div className=' space-y-4 flex-col w-full lg:w-1/2 '>
                     <h1 className=' text-5xl font-extrabold leading-tight'>
                         {data.title}

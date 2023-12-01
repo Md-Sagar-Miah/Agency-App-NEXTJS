@@ -10,7 +10,7 @@ const Services = async () => {
     const data = await getData();
     return (
         <div>
-            <div className="container mx-auto py-20">
+            <div className="container mx-auto max-w-6xl py-20">
                 <div className="">
                     <h3 className=" font-medium text-xl text-green-600 pb-6">
                         OUR ALL SERVICES

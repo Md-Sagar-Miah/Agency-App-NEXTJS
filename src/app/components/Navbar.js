@@ -4,7 +4,7 @@ import React from 'react'
 const navbar = () => {
     return (
         <section className=' py-8'>
-            <div className='container mx-auto  flex  justify-between'>
+            <div className='container mx-auto max-w-6xl flex  justify-between'>
                 <div className=' font-extrabold text-lg py-2'>
                     Design<span className=' text-orange-500 '>AGENCY</span>
                 </div>

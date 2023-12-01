@@ -11,7 +11,7 @@ const Testimonial = async () => {
     return (
 
         <section>
-            <div className="container mx-auto pt-16 mb-20">
+            <div className="container mx-auto max-w-6xl pt-16 mb-20">
                 <div className="">
                     <h3 className=" font-medium text-xl text-green-600 pb-6">
                         TESTIMONIAL LIST
