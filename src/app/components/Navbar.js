@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
-const navbar = () => {
+const Navbar = () => {
     const current = usePathname()
     return (
         <section className=' py-8'>
@@ -25,4 +25,4 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default Navbar
